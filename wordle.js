@@ -101,7 +101,7 @@ function checkWord() {
         alert(`Game Over! The correct word was ${answer.toUpperCase()}`);
         setTimeout(()=> {
             return alert("Want to play again? Refresh the page!");
-        },500);//cause delay after the 1st alert
+        },500); //will cause delay after the 1st alert
         return;
     }
 
