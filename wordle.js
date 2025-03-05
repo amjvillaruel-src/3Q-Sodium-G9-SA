@@ -2,7 +2,7 @@ var validWords = [
     "acorn", "adobe", "alter", "blent", "beaux", "beryl", 
     "cabin", "phone", "chasm", "decoy", "dimes", "epics", 
     "epoch", "flare", "genus", "feign", "fangs", "eclat", 
-    "grime", "ivory", "ingot", "loyal", "largo", "mares",
+    "grime", "ivory", "ingot", "feast", "largo", "mares",
     "milch", "mules", "opium", "naive", "novel", "niche",
     "poker", "ratio", "raven", "realm", "sable", "scour", 
     "shift", "sigma", "sheik", "thyme", "gleam", "widen", 
