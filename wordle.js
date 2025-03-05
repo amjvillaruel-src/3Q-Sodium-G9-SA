@@ -89,8 +89,8 @@ function checkWord() {
     document.getElementById("r-" + currentRow + "-3").innerText = guessedWord[3].toUpperCase();
     document.getElementById("r-" + currentRow + "-4").innerText = guessedWord[4].toUpperCase();
 
-    // double checker if its correct gid mn
-    if (result.every(color => color === "#32a852")) {
+    // double checker if its correct
+    if (result.every(color => color === "##108a0a")) {
         alert("Congratulations! You've guessed the word!");
         return; // end na finally!!!
     }
@@ -101,7 +101,7 @@ function checkWord() {
         alert(`Game Over! The correct word was ${answer.toUpperCase()}`);
         setTimeout(()=> {
             return alert("Want to play again? Refresh the page!");
-        },500);//cause delay after da 1st alert
+        },500);//cause delay after the 1st alert
         return;
     }
 
